@@ -15,7 +15,7 @@ using System;
 class Solution
 {
 
-    // Complete the solve function below.
+    // Complete the solve function below
     static void solve(double meal_cost, int tip_percent, int tax_percent)
     {
 

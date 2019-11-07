@@ -9,15 +9,12 @@ class Node{
 }
 class Solution{
 
-	private static int getHeight(Node root)
-{
-    if (root == null)
-    {
-        return -1;
-    }
-
-    return 1 + Math.Max(getHeight(root.left), getHeight(root.right));
-}
+	private static int getHeight(Node root){
+		if (root == null){
+        		return -1;
+		}
+	    return 1 + Math.Max(getHeight(root.left), getHeight(root.right));
+	}
 
 	static Node insert(Node root, int data){
         if(root==null){
